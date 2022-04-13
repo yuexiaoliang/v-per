@@ -1,0 +1,16 @@
+{
+  "compilerOptions": {
+    "target": "es2015",
+    "strict": true,
+    "module": "es2015",
+    "moduleResolution": "node",
+    "allowSyntheticDefaultImports": true,
+    "allowJs": true,
+    "jsx": "preserve"
+  },
+  "exclude": [
+    "node_modules",
+    "examples",
+    "**/*.d.ts"
+  ]
+}
