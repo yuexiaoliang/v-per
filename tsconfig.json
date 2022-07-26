@@ -6,11 +6,13 @@
     "moduleResolution": "node",
     "allowSyntheticDefaultImports": true,
     "allowJs": true,
-    "jsx": "preserve"
+    "jsx": "preserve",
+    "typeRoots": [
+      "./typings"
+    ]
   },
   "exclude": [
     "node_modules",
-    "examples",
-    "**/*.d.ts"
+    "examples"
   ]
 }

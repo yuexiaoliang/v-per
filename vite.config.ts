@@ -6,7 +6,8 @@ import dts from 'vite-plugin-dts';
 export default defineConfig({
   plugins: [
     dts({
-      exclude: ['example/**', 'node_modules']
+      include: ['src/index.ts', 'src/types.ts'],
+      outputDir: 'lib/types'
     })
   ],
 
